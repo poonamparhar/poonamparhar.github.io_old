@@ -1,6 +1,6 @@
 title: "Poonam's Blog"
 author: "Poonam Parhar"
-description: "A place to share my troubleshooting and debugging experience with Java and JVM"
+description: "A place to share my troubleshooting and debugging experience with Java and JVM
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -18,9 +18,13 @@ linkedin_username: "poonam"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "modernist"
 
+remote_theme: pages-themes/modernist@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 rss: rss
+
+theme: "modernist"
 
 kramdown:
   syntax_highlighter_opts:
