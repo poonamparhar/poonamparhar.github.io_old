@@ -1,6 +1,6 @@
-title: "Poonam's Blog"
+#title: "Poonam's Blog"
 author: "Poonam Parhar"
-#description: "A place to share my troubleshooting and debugging experience with Java and JVM"
+description: "Troubleshooting the JVM"
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -34,6 +34,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
